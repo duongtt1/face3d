@@ -1,0 +1,3 @@
+/home/duongtt/workplace/insightface_ncnn/sc/CMakeFiles/facerec_ncnn.dir
+/home/duongtt/workplace/insightface_ncnn/sc/CMakeFiles/edit_cache.dir
+/home/duongtt/workplace/insightface_ncnn/sc/CMakeFiles/rebuild_cache.dir

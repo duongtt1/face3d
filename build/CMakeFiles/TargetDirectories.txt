@@ -1,0 +1,3 @@
+/home/duongtt/workplace/insightface_ncnn/sc/build/CMakeFiles/scrfd.dir
+/home/duongtt/workplace/insightface_ncnn/sc/build/CMakeFiles/edit_cache.dir
+/home/duongtt/workplace/insightface_ncnn/sc/build/CMakeFiles/rebuild_cache.dir
