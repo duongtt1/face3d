@@ -29,7 +29,9 @@ struct FaceObject
 class SCRFD
 {
 public:
-    int load(const char *modeltype, bool use_gpu = false);
+    SCRFD();
+    ~SCRFD();
+    int load(const char *modeltype, bool use_gpu = true);
 
     int detect(const cv::Mat &rgb, std::vector<FaceObject> &faceobjects, float prob_threshold = 0.5f, float nms_threshold = 0.45f);
 

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/duongtt/workplace/face3d/build",
+  "command": "/usr/bin/g++   -I/home/duongtt/workplace/face3d/. -isystem /home/duongtt/tencent/ncnn/build/install/include/ncnn -isystem /usr/local/include/opencv4  -g -fPIE   -fopenmp -pthread -std=gnu++14 -o CMakeFiles/facerec_ncnn.dir/main.cpp.o -c /home/duongtt/workplace/face3d/main.cpp",
+  "file": "/home/duongtt/workplace/face3d/main.cpp"
+},
+{
+  "directory": "/home/duongtt/workplace/face3d/build",
+  "command": "/usr/bin/g++   -I/home/duongtt/workplace/face3d/. -isystem /home/duongtt/tencent/ncnn/build/install/include/ncnn -isystem /usr/local/include/opencv4  -g -fPIE   -fopenmp -pthread -std=gnu++14 -o CMakeFiles/facerec_ncnn.dir/scrfd.cpp.o -c /home/duongtt/workplace/face3d/scrfd.cpp",
+  "file": "/home/duongtt/workplace/face3d/scrfd.cpp"
+}
+]

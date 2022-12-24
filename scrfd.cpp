@@ -227,12 +227,21 @@ static void generate_proposals(const ncnn::Mat &anchors, int feat_stride, const 
     }
 }
 
+SCRFD::SCRFD()
+{
+    this->has_kps = true;
+}
+SCRFD::~SCRFD()
+{
+
+}
+
 int SCRFD::load(const char *modeltype, bool use_gpu)
 {
     scrfd.clear();
 
-    ncnn::set_cpu_powersave(2);
-    ncnn::set_omp_num_threads(ncnn::get_big_cpu_count());
+    // ncnn::set_cpu_powersave(2);
+    ncnn::set_omp_num_threads(4);
 
     faceseg.load_param("./models/faceseg-op.param");
     faceseg.load_model("./models/faceseg-op.bin");
@@ -245,7 +254,7 @@ int SCRFD::load(const char *modeltype, bool use_gpu)
     scrfd.opt.use_vulkan_compute = use_gpu;
 #endif
 
-    scrfd.opt.num_threads = ncnn::get_big_cpu_count();
+    scrfd.opt.num_threads = 4;
 
     char parampath[256];
     char modelpath[256];
