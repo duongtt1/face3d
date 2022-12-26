@@ -45,7 +45,7 @@ private:
     ncnn::Net facept;
     ncnn::Net faceseg;
     ncnn::Net scrfd;
-    bool has_kps;
+    bool has_kps = false;
 };
 
 #endif // SCRFD_H
